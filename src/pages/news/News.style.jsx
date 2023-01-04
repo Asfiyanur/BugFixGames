@@ -6,7 +6,7 @@ export const NavTitle = styled.div`
   background: rgba(218, 218, 253, 0.5);
 `;
 
-export const Title = styled.h2`
+export const Title = styled.span`
   width: 436px;
   height: 30px;
 
@@ -28,4 +28,13 @@ export const Content = styled.p`
   line-height: 32px;
   letter-spacing: -0.04em;
   color: #181e4b;
+`;
+export const CharCard = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+
+  gap: 2rem;
 `;
